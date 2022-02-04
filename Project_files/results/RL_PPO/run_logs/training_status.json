@@ -1,0 +1,65 @@
+{
+    "ShootTargetVisual": {
+        "checkpoints": [
+            {
+                "steps": 912587,
+                "file_path": "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-912587.onnx",
+                "reward": 1.0146596809332284,
+                "creation_time": 1643838903.8218377,
+                "auxillary_file_paths": [
+                    "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-912587.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-999999.onnx",
+                "reward": 1.020463640948618,
+                "creation_time": 1643839312.104481,
+                "auxillary_file_paths": [
+                    "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-999999.pt"
+                ]
+            },
+            {
+                "steps": 1499999,
+                "file_path": "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-1499999.onnx",
+                "reward": 1.0319614656230405,
+                "creation_time": 1643841377.4247801,
+                "auxillary_file_paths": [
+                    "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-1499999.pt"
+                ]
+            },
+            {
+                "steps": 1510149,
+                "file_path": "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-1510149.onnx",
+                "reward": 1.0324299438425746,
+                "creation_time": 1643841419.6832976,
+                "auxillary_file_paths": [
+                    "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-1510149.pt"
+                ]
+            },
+            {
+                "steps": 1648147,
+                "file_path": "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-1648147.onnx",
+                "reward": 1.0415503073898025,
+                "creation_time": 1643869515.400092,
+                "auxillary_file_paths": [
+                    "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-1648147.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1648147,
+            "file_path": "results/RL_PPO/ShootTargetVisual.onnx",
+            "reward": 1.0415503073898025,
+            "creation_time": 1643869515.400092,
+            "auxillary_file_paths": [
+                "results/RL_PPO/ShootTargetVisual/ShootTargetVisual-1648147.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

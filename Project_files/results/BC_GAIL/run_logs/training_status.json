@@ -1,0 +1,65 @@
+{
+    "ShootTargetVisual": {
+        "checkpoints": [
+            {
+                "steps": 999999,
+                "file_path": "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-999999.onnx",
+                "reward": 1.0399897920024301,
+                "creation_time": 1643848121.1088896,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-999999.pt"
+                ]
+            },
+            {
+                "steps": 1499999,
+                "file_path": "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-1499999.onnx",
+                "reward": 1.059798650533561,
+                "creation_time": 1643850700.56717,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-1499999.pt"
+                ]
+            },
+            {
+                "steps": 1515642,
+                "file_path": "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-1515642.onnx",
+                "reward": 1.0533760955836549,
+                "creation_time": 1643850775.2081344,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-1515642.pt"
+                ]
+            },
+            {
+                "steps": 1999999,
+                "file_path": "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-1999999.onnx",
+                "reward": 1.073746891175547,
+                "creation_time": 1643872206.5164897,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-1999999.pt"
+                ]
+            },
+            {
+                "steps": 2112181,
+                "file_path": "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-2112181.onnx",
+                "reward": 1.0647272656180642,
+                "creation_time": 1643872828.7737985,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-2112181.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2112181,
+            "file_path": "results/BC_GAIL/ShootTargetVisual.onnx",
+            "reward": 1.0647272656180642,
+            "creation_time": 1643872828.7737985,
+            "auxillary_file_paths": [
+                "results/BC_GAIL/ShootTargetVisual/ShootTargetVisual-2112181.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

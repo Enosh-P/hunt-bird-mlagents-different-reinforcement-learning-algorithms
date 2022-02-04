@@ -1,0 +1,38 @@
+{
+    "ShootTargetVisual": {
+        "checkpoints": [
+            {
+                "steps": 499998,
+                "file_path": "results/PPO_2/ShootTargetVisual/ShootTargetVisual-499998.onnx",
+                "reward": 0.9068396188134898,
+                "creation_time": 1643891388.3698914,
+                "auxillary_file_paths": [
+                    "results/PPO_2/ShootTargetVisual/ShootTargetVisual-499998.pt"
+                ]
+            },
+            {
+                "steps": 675637,
+                "file_path": "results/PPO_2/ShootTargetVisual/ShootTargetVisual-675637.onnx",
+                "reward": 0.9780847098641937,
+                "creation_time": 1643892070.804856,
+                "auxillary_file_paths": [
+                    "results/PPO_2/ShootTargetVisual/ShootTargetVisual-675637.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 675637,
+            "file_path": "results/PPO_2/ShootTargetVisual.onnx",
+            "reward": 0.9780847098641937,
+            "creation_time": 1643892070.804856,
+            "auxillary_file_paths": [
+                "results/PPO_2/ShootTargetVisual/ShootTargetVisual-675637.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

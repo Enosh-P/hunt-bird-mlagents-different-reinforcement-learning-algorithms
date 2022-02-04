@@ -1,0 +1,47 @@
+{
+    "ShootTargetVisual": {
+        "checkpoints": [
+            {
+                "steps": 499999,
+                "file_path": "results/BC_2/ShootTargetVisual/ShootTargetVisual-499999.onnx",
+                "reward": 0.9256536192508261,
+                "creation_time": 1643888142.9190235,
+                "auxillary_file_paths": [
+                    "results/BC_2/ShootTargetVisual/ShootTargetVisual-499999.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results/BC_2/ShootTargetVisual/ShootTargetVisual-999999.onnx",
+                "reward": 1.0047476959560393,
+                "creation_time": 1643889992.7846236,
+                "auxillary_file_paths": [
+                    "results/BC_2/ShootTargetVisual/ShootTargetVisual-999999.pt"
+                ]
+            },
+            {
+                "steps": 1022562,
+                "file_path": "results/BC_2/ShootTargetVisual/ShootTargetVisual-1022562.onnx",
+                "reward": 1.003169924160151,
+                "creation_time": 1643890077.1230948,
+                "auxillary_file_paths": [
+                    "results/BC_2/ShootTargetVisual/ShootTargetVisual-1022562.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1022562,
+            "file_path": "results/BC_2/ShootTargetVisual.onnx",
+            "reward": 1.003169924160151,
+            "creation_time": 1643890077.1230948,
+            "auxillary_file_paths": [
+                "results/BC_2/ShootTargetVisual/ShootTargetVisual-1022562.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

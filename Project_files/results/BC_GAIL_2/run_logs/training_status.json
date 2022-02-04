@@ -1,0 +1,56 @@
+{
+    "ShootTargetVisual": {
+        "checkpoints": [
+            {
+                "steps": 197864,
+                "file_path": "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-197864.onnx",
+                "reward": -13.24111111164093,
+                "creation_time": 1643881440.3127577,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-197864.pt"
+                ]
+            },
+            {
+                "steps": 499998,
+                "file_path": "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-499998.onnx",
+                "reward": 0.8740683193162361,
+                "creation_time": 1643883330.9712114,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-499998.pt"
+                ]
+            },
+            {
+                "steps": 999999,
+                "file_path": "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-999999.onnx",
+                "reward": 1.0155043956308487,
+                "creation_time": 1643886190.4388053,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-999999.pt"
+                ]
+            },
+            {
+                "steps": 1001893,
+                "file_path": "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-1001893.onnx",
+                "reward": 1.0238125144629104,
+                "creation_time": 1643886198.4511104,
+                "auxillary_file_paths": [
+                    "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-1001893.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 1001893,
+            "file_path": "results/BC_GAIL_2/ShootTargetVisual.onnx",
+            "reward": 1.0238125144629104,
+            "creation_time": 1643886198.4511104,
+            "auxillary_file_paths": [
+                "results/BC_GAIL_2/ShootTargetVisual/ShootTargetVisual-1001893.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

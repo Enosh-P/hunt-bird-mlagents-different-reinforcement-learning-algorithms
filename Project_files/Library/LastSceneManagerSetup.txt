@@ -1,0 +1,5 @@
+sceneSetups:
+- path: Assets/MLAgents_Visual/GameScene_MLAgents_Visual_ShootTarget.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
