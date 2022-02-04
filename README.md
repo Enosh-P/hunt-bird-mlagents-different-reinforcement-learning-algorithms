@@ -23,6 +23,6 @@ Making an agent to shoot bird using RL and Imitation learning using mlagents in 
 
 ### Expert Playing:
 
-![alt text](https://github.com/[Enosh-P]/[hunt-bird-mlagents-different-reinforcement-learning-algorithms]/blob/[main]/Expert_demo.gif?raw=true)
+![alt text](https://github.com/Enosh-P/hunt-bird-mlagents-different-reinforcement-learning-algorithms/blob/main/Expert_demo.gif?raw=true)
 
 ## Graphs:
