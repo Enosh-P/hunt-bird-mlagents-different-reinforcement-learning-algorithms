@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
-using CodeMonkey.Utils;
 using Unity.MLAgents.Sensors;
 
 
@@ -64,7 +63,7 @@ public class ShootTargetAgent : Agent
     }
     
     public override void Heuristic(in ActionBuffers actionsOut){
-        //Vector3 worldPosition = UtilsClass.GetMouseWorldPosition();
+        //Vector3 worldPosition = Input.mousePosition;
         Vector3 worldPosition;
         ActionSegment<int> discreteAction = actionsOut.DiscreteActions;
         Rigidbody2D RbirdRigidbody = shootTargetEnvironment.redbirds.GetComponent<Rigidbody2D>();
