@@ -20,7 +20,6 @@ Making an agent to shoot bird using RL and Imitation learning using [mlagents](h
 2. Hit a Red Bonus Bird after 2 Yellow Bird (Provide more priority).
 3. Observes the ammo availability as well.
 4. When there is no ammo, go to No Shoot Zone(NSZ).
-5. When there is no bird on the screen, go to NSZ as well.
 
 ### Reward Function:
 
