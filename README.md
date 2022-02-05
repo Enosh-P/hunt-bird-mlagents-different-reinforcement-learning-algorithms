@@ -14,7 +14,7 @@ Making an agent to shoot bird using RL and Imitation learning using mlagents in 
 4. Reloads when there is no bullet.
 5. Added No Shoot Zone.
 
-### Agent Learn follwing:
+### Agent Learns the follwing:
 
 1. Hit 2 Yellow Bird first.
 2. Hit a Red Bonus Bird.
