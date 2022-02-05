@@ -7,6 +7,7 @@ public class ShootTargetEnvironment : MonoBehaviour
 
     [SerializeField] private Transform ShootFlash;
     [SerializeField] private Transform NoFlash;
+    public Transform Ammo;
     public Transform yellowbirds;
     public Transform blackbirds;
     public Transform redbirds;
@@ -60,8 +61,12 @@ public class ShootTargetEnvironment : MonoBehaviour
             redbirds.localPosition = new Vector3(49.8f, -19.9f);
             RbirdRigidbody.constraints = RigidbodyConstraints2D.FreezeAll;
         }
+        if (ammo < 0){
+            Ammo.GetChild(0).gameObject.SetActive(true);
+        }
         if (ammo < -3){
             ammo = 10;
+            Ammo.GetChild(0).gameObject.SetActive(false);
         }
     }
 

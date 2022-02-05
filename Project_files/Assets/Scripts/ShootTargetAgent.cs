@@ -21,16 +21,17 @@ public class ShootTargetAgent : Agent
     public override void OnActionReceived(ActionBuffers actions) {
         int positionX = actions.DiscreteActions[0];
         int positionY = actions.DiscreteActions[1];
-        shootTargetEnvironment.ammo -= 1;
-        if (positionY == 0 && shootTargetEnvironment.ammo < 0)
-        {
-            //Empty Action No reward Don't Shoot for reload
-            Debug.Log("Waiting for reload");
-            AddReward(1f);
-            EndEpisode();
+        //No shoot Zone. Enter when no bird to hit or no bullets
+        if (positionY == 0){
+            // Enter No shoot Zone when u have no ammo to get reward
+            if (shootTargetEnvironment.ammo < 0){
+                    shootTargetEnvironment.ammo -= 1;
+                    AddReward(1f);
+                    EndEpisode();
+                }
         }
-        else
-        {
+        else{
+            shootTargetEnvironment.ammo -= 1;
             Vector2 shootPositionLocal = new Vector2(positionX, positionY);
             shootTransform.localPosition = shootPositionLocal;
 
@@ -63,7 +64,8 @@ public class ShootTargetAgent : Agent
     }
     
     public override void Heuristic(in ActionBuffers actionsOut){
-        //Vector3 worldPosition = Input.mousePosition;
+        //Used for making expert demo
+        //Vector3 worldPosition = Input.MousePosition();
         Vector3 worldPosition;
         ActionSegment<int> discreteAction = actionsOut.DiscreteActions;
         Rigidbody2D RbirdRigidbody = shootTargetEnvironment.redbirds.GetComponent<Rigidbody2D>();

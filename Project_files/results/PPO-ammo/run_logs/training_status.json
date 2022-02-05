@@ -2,58 +2,58 @@
     "ShootTargetVisual": {
         "checkpoints": [
             {
-                "steps": 68710,
-                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-68710.onnx",
-                "reward": -89.3586956521739,
-                "creation_time": 1643974940.721985,
+                "steps": 6499999,
+                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-6499999.onnx",
+                "reward": 0.9615345496108861,
+                "creation_time": 1644024901.7116718,
                 "auxillary_file_paths": [
-                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-68710.pt"
+                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-6499999.pt"
                 ]
             },
             {
-                "steps": 499999,
-                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-499999.onnx",
-                "reward": 0.061122537289792354,
-                "creation_time": 1643976929.2678912,
+                "steps": 6999999,
+                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-6999999.onnx",
+                "reward": 0.96211432341439,
+                "creation_time": 1644026741.018877,
                 "auxillary_file_paths": [
-                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-499999.pt"
+                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-6999999.pt"
                 ]
             },
             {
-                "steps": 765534,
-                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-765534.onnx",
-                "reward": 0.4097022562301134,
-                "creation_time": 1643977640.1098359,
+                "steps": 7499999,
+                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-7499999.onnx",
+                "reward": 0.9765071737138848,
+                "creation_time": 1644028586.5399053,
                 "auxillary_file_paths": [
-                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-765534.pt"
+                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-7499999.pt"
                 ]
             },
             {
-                "steps": 782175,
-                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-782175.onnx",
-                "reward": 0.42528208484938856,
-                "creation_time": 1643977727.7625978,
+                "steps": 7999999,
+                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-7999999.onnx",
+                "reward": 0.9566792419721496,
+                "creation_time": 1644030436.5339751,
                 "auxillary_file_paths": [
-                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-782175.pt"
+                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-7999999.pt"
                 ]
             },
             {
-                "steps": 983944,
-                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-983944.onnx",
-                "reward": 0.564085711649486,
-                "creation_time": 1643978409.386595,
+                "steps": 8000001,
+                "file_path": "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-8000001.onnx",
+                "reward": 0.9567010276186307,
+                "creation_time": 1644030436.624394,
                 "auxillary_file_paths": [
-                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-983944.pt"
+                    "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-8000001.pt"
                 ]
             }
         ],
         "final_checkpoint": {
-            "steps": 983944,
+            "steps": 8000001,
             "file_path": "results/PPO-ammo/ShootTargetVisual.onnx",
-            "reward": 0.564085711649486,
-            "creation_time": 1643978409.386595,
+            "reward": 0.9567010276186307,
+            "creation_time": 1644030436.624394,
             "auxillary_file_paths": [
-                "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-983944.pt"
+                "results/PPO-ammo/ShootTargetVisual/ShootTargetVisual-8000001.pt"
             ]
         }
     },

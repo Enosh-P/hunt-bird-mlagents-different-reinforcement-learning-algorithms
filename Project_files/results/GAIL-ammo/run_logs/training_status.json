@@ -1,0 +1,65 @@
+{
+    "ShootTargetVisual": {
+        "checkpoints": [
+            {
+                "steps": 2999999,
+                "file_path": "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-2999999.onnx",
+                "reward": 0.9124434356595955,
+                "creation_time": 1644070354.7258594,
+                "auxillary_file_paths": [
+                    "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-2999999.pt"
+                ]
+            },
+            {
+                "steps": 3499999,
+                "file_path": "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-3499999.onnx",
+                "reward": 0.87950043957719,
+                "creation_time": 1644072800.708,
+                "auxillary_file_paths": [
+                    "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-3499999.pt"
+                ]
+            },
+            {
+                "steps": 3999998,
+                "file_path": "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-3999998.onnx",
+                "reward": 0.944492396571932,
+                "creation_time": 1644075364.76493,
+                "auxillary_file_paths": [
+                    "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-3999998.pt"
+                ]
+            },
+            {
+                "steps": 4499999,
+                "file_path": "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-4499999.onnx",
+                "reward": 0.9618239964294434,
+                "creation_time": 1644077941.4909244,
+                "auxillary_file_paths": [
+                    "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-4499999.pt"
+                ]
+            },
+            {
+                "steps": 4988595,
+                "file_path": "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-4988595.onnx",
+                "reward": null,
+                "creation_time": 1644080480.7465968,
+                "auxillary_file_paths": [
+                    "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-4988595.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 4988595,
+            "file_path": "results/GAIL-ammo/ShootTargetVisual.onnx",
+            "reward": null,
+            "creation_time": 1644080480.7465968,
+            "auxillary_file_paths": [
+                "results/GAIL-ammo/ShootTargetVisual/ShootTargetVisual-4988595.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

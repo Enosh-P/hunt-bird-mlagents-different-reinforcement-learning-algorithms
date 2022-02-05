@@ -20,13 +20,13 @@ behaviors:
     reward_signals:
       extrinsic:
         gamma: 0.99
-        strength: 0.3
+        strength: 0.2
     behavioral_cloning:
-      strength: 0.7
-      demo_path: Assets/Demo/MultiDemoExpert.demo
+      strength: 0.8
+      demo_path: Assets/Demo/ammodemo.demo
       steps: 5000
     keep_checkpoints: 5
     checkpoint_interval: 500000
     max_steps: 5000000
     time_horizon: 64
-    summary_freq: 10000
+    summary_freq: 50000

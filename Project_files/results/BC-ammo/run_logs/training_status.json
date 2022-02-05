@@ -1,0 +1,65 @@
+{
+    "ShootTargetVisual": {
+        "checkpoints": [
+            {
+                "steps": 999999,
+                "file_path": "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-999999.onnx",
+                "reward": 0.5105454535917803,
+                "creation_time": 1644041213.0049555,
+                "auxillary_file_paths": [
+                    "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-999999.pt"
+                ]
+            },
+            {
+                "steps": 1499999,
+                "file_path": "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-1499999.onnx",
+                "reward": 0.895631065693342,
+                "creation_time": 1644042860.6772823,
+                "auxillary_file_paths": [
+                    "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-1499999.pt"
+                ]
+            },
+            {
+                "steps": 1999999,
+                "file_path": "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-1999999.onnx",
+                "reward": 0.9291637482302768,
+                "creation_time": 1644044617.1624167,
+                "auxillary_file_paths": [
+                    "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-1999999.pt"
+                ]
+            },
+            {
+                "steps": 2499999,
+                "file_path": "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-2499999.onnx",
+                "reward": 0.951898731259857,
+                "creation_time": 1644046425.0700698,
+                "auxillary_file_paths": [
+                    "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-2499999.pt"
+                ]
+            },
+            {
+                "steps": 2734235,
+                "file_path": "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-2734235.onnx",
+                "reward": 0.9450858748368635,
+                "creation_time": 1644047308.1793382,
+                "auxillary_file_paths": [
+                    "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-2734235.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 2734235,
+            "file_path": "results/BC-ammo/ShootTargetVisual.onnx",
+            "reward": 0.9450858748368635,
+            "creation_time": 1644047308.1793382,
+            "auxillary_file_paths": [
+                "results/BC-ammo/ShootTargetVisual/ShootTargetVisual-2734235.pt"
+            ]
+        }
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "0.27.0",
+        "torch_version": "1.8.1+cu102"
+    }
+}

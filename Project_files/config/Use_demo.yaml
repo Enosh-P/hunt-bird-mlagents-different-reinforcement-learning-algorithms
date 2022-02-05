@@ -18,14 +18,10 @@ behaviors:
       vis_encode_type: simple
       memory: null
       goal_conditioning_type: hyper
-    behavioral_cloning:
-      strength: 0.4
-      demo_path: Assets/Demo/MultiDemoExpert.demo
-      steps: 5000
     reward_signals:
       extrinsic:
         gamma: 0.99
-        strength: 0.4
+        strength: 0.7
         network_settings:
           normalize: false
           hidden_units: 128
@@ -35,12 +31,12 @@ behaviors:
           goal_conditioning_type: hyper
       # GAIL
       gail:
-        strength: 0.2
-        demo_path: Assets/Demo/MultiDemoExpert.demo
+        strength: 0.3
+        demo_path: Assets/Demo/ammodemo.demo
     init_path: null
     keep_checkpoints: 5
     checkpoint_interval: 500000
-    max_steps: 5000000
+    max_steps: 8000000
     time_horizon: 64
     summary_freq: 10000
     threaded: false
