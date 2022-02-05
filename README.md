@@ -12,6 +12,7 @@ Making an agent to shoot bird using RL and Imitation learning using mlagents in 
 2. The agent is provided with a ammo pallet containing 10 ammo initially.
 3. Hitting the Bonus Target provides an extra ammo
 4. Reloads when there is no bullet.
+5. Agent Enters No Shoot Zone when it has no bullet or when there no bird visible.
 
 ### Reward Function:
 
