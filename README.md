@@ -1,6 +1,6 @@
 # Bird-Hunt using mlagents in Unity
 
-Making an agent to shoot bird using RL and Imitation learning using https://github.com/Unity-Technologies/ml-agents in unity. Here I have trained the agent on Bird-Hunt game to shoot the target using following Reinforcement Learning Algorithms:
+Making an agent to shoot bird using RL and Imitation learning using [mlagents](https://github.com/Unity-Technologies/ml-agents) in unity. Here I have trained the agent on Bird-Hunt game to shoot the target using following Reinforcement Learning Algorithms:
 
 1. PPO Algorithm
 2. GAIL
